@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/white">
+    android:background="@color/white"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/splashLogo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/spotify_icon"
         android:padding="50dp"
-        />
+        android:src="@drawable/spotify_icon" />
 
 </LinearLayout>

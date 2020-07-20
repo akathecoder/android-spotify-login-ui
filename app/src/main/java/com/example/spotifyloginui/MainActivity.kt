@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val img:ImageView = findViewById(R.id.splashLogo)
+        val img: ImageView = findViewById(R.id.splashLogo)
         img.animate().alpha(4000F).duration = 0
 
         Handler().postDelayed(
